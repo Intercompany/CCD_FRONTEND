@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:700" rel="stylesheet">
+
+    <link href="css/calendario.css" type="text/css" rel="stylesheet">
+    <link href="compras_style.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="js/calendar.js" type="text/javascript"></script>
+    <script src="js/calendar-es.js" type="text/javascript"></script>
+    <script src="js/calendar-setup.js" type="text/javascript"></script>
+    <title>Document</title>
+</head>
+
+
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col l2 ">
+            </div>
+            <div class="col l3 ">
+                <div class="cabecera">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s1 l2 ">
+            </div>
+            <div class="col s11 l3">
+                <center>
+                    <div class="cb1">
+                        <h2 class="txt_cb1">Reserve hoy</h2>
+                        <h2 class="txt_cb2">Hasta un 15% de</h2>
+                        <h2 class="txt_cb3"> descuento*</h2>
+                    </div>
+                </center>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="container">
+
+        <div class="col l2">
+        </div>
+        <div class="row">
+            <div class="col s1 l2">
+
+            </div>
+            <center>
+                <div class="col s11 l3 ">
+                    <div class="fondo">
+                        <div class="">
+                            <h2 class="subtitulo">Seleccionar</h2>
+                            <hr><br>
+                        </div>
+                        <div class="select_adultos">
+                            <select class="browser-default">
+                           <option value="" disabled selected>Niños</option>
+                           <option value="1">Niños 1</option>
+                           <option value="2">Niños 2</option>
+                           <option value="3">Niños 3</option>
+                           <option value="4">Niños 4</option>
+                           <option value="5">Niños 5</option>
+                           <option value="6">Niños 6</option>
+                           <option value="7">Niños 7</option>
+                           <option value="8">Niños 8</option>
+                           <option value="9">Niños 9</option>
+                           <option value="10">Niños 10</option>
+                           <option value="11">Niños 11</option>
+                           <option value="12">Niños 12</option>
+                           <option value="13">Niños 13</option>
+                           <option value="14">Niños 14</option>
+                           <option value="15">Niños 15</option>
+                           <option value="16">Niños 16</option>
+                           <option value="17">Ñiños 17</option>
+                           <option value="18">Niños 18</option>
+                         </select>
+                        </div>
+                        <div class="select_niños">
+                            <select class="browser-default">
+                           <option value="" disabled selected>Niños</option>
+                           <option value="1">Niños 1</option>
+                           <option value="2">Niños 2</option>
+                           <option value="3">Niños 3</option>
+                           <option value="4">Niños 4</option>
+                           <option value="5">Niños 5</option>
+                           <option value="6">Niños 6</option>
+                           <option value="7">Niños 7</option>
+                           <option value="8">Niños 8</option>
+                           <option value="9">Niños 9</option>
+                           <option value="10">Niños 10</option>
+                           <option value="11">Niños 11</option>
+                           <option value="12">Niños 12</option>
+                           <option value="13">Niños 13</option>
+                           <option value="14">Niños 14</option>
+                           <option value="15">Niños 15</option>
+                           <option value="16">Niños 16</option>
+                           <option value="17">Ñiños 17</option>
+                           <option value="18">Niños 18</option>
+                         </select>
+                        </div>
+
+                        <!--inicio de fecha-->
+                        <div class="fecha">
+                            <label class="active" for="first_name2">Fecha</label>
+                            <input type="text" class="fecha" name="ingreso" id="ingreso" value="dd-mm-yyyy" class="valida" />
+                            <!-- script que define y configura el calendario-->
+                            <script type="text/javascript">
+                                Calendar.setup({
+                                    inputField: "ingreso", // id del campo de texto
+                                    ifFormat: "%d-%m-%Y", // formato de la fecha que se escriba en el campo de texto
+                                    button: "lanzador" // el id del botón que lanzará el calendario
+                                });
+                            </script>
+                        </div>
+                        <!--fin de fecha-->
+                        <div class="section">
+                            <button class="btn waves-effect waves-light btn-signup" type="submit">Comprar</button>
+                        </div>
+                        <h4 class="condiciones">
+          Precios sujetos a cambios sin previo aviso. Aplican restricciones.
+        </h4>
+                    </div>
+                </div>
+            </center>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

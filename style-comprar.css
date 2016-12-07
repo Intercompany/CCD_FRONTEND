@@ -1,0 +1,143 @@
+    .cb1 {
+        background-color: #069e2c;
+    }
+
+    .txt_cb1 {
+        font-size: 25px;
+        padding: 15px 40px;
+        margin-bottom: 10px;
+        color: rgb(255, 255, 255);
+    }
+
+    .txt_cb2 {
+        font-size: 15px;
+        margin-top: -20px;
+        margin-bottom: 23px;
+        color: rgb(255, 255, 255);
+    }
+
+    .txt_cb3 {
+        font-size: 15px;
+        margin-top: -25px;
+        padding-bottom: 15px;
+        color: rgb(255, 255, 255);
+    }
+
+    .cabecera {
+        padding-top: 10px;
+        background-color: rgb(9, 189, 17);
+        margin-bottom: -90px;
+        margin-top: 40px;
+    }
+
+    .browser-default {
+        width: 95px;
+        margin: auto;
+        height: 35px;
+    }
+
+    .select_adultos {
+        display: inline-block;
+    }
+
+    .select_niños {
+        display: inline-block;
+        padding-left: -10px;
+    }
+
+    .titulo {
+        font-size: 18px;
+        margin-bottom: -20px;
+        margin-top: -18px;
+    }
+
+    .cuerpo {
+        background-color: rgb(144, 63, 63);
+        padding-top: 50px;
+        padding-bottom:40px;
+        margin-top: -42px;
+        margin-left: 368px;
+        width: 222px;
+    }
+
+    .fondo{
+      background-color: rgba(255, 255, 255, 0.65);
+      margin-top: -41px;
+      padding-top: 33px;
+      padding-bottom: 35px;
+    }
+    .fecha{
+      width: 180px;
+      color:rgb(255, 255, 255);
+      border-color: rgb(23, 23, 22);
+      font-weight: 500;
+      margin-top: 10px;
+      position: inherit;
+    }
+    .fecha label{
+      color:rgb(38, 38, 38);
+      font-weight: bolder;
+      padding-bottom: 15px;
+    }
+    .subtitulo{
+      font-size: 20px;
+      margin-top: -15px;
+      margin-left: -105px;
+      color: rgb(255, 255, 255);
+      font-weight: 500;
+      margin-bottom: -5px;
+    }
+    .btn.btn-signup{
+      margin-top: -45px;
+    background-color: rgb(201, 0, 0);
+    width: 200px;
+    position: inherit;
+    }
+    .condiciones{
+      font-size: 12px;
+      margin-top: -20px;
+      font-weight: 500;
+      color:rgb(38, 38, 38);
+      margin-bottom: -19px;
+    }
+
+    @media (max-width: 1280px) {
+    .cb1 .txt_cb1{
+        font-size: 23px;
+    }
+    .cb1 .txt_cb2 {
+      font-size: 14px;
+    }
+    .cb1 .txt_cb3 {
+      font-size: 14px;
+    }
+    .fondo .subtitulo{
+      font-size: 16px;
+    }
+    .fondo .browser-default{
+      margin-top: -px;
+    }
+    }
+    @media (max-width: 800px) {
+    .cb1 .txt_cb1{
+        font-size: 23px;
+    }
+    .cb1 .txt_cb2 {
+      font-size: 14px;
+    }
+    .cb1 .txt_cb3 {
+      font-size: 14px;
+    }
+    .fondo .subtitulo{
+      font-size: 16px;
+    }
+    .fondo .browser-default{
+      margin-top: -px;
+    }
+    .txt_cb1 {
+        font-size: 25px;
+        padding: 15px 40px;
+        margin-bottom: 10px;
+        color: rgb(255, 255, 255);
+    }
+    }
