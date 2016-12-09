@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Oleo+Script" rel="stylesheet">
     <!--codigo-->
     <script src="js/libs/jquery-3.1.1/jquery-1.5.1.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function() {
-            $('#menuItemHTML').click(function(){
-              $("#content").load('views/jsLanguaje.html');
+            $('#menuItemHTML').click(function() {
+                $("#content").load('views/jsLanguaje.html');
             });
         });
     </script>
@@ -30,6 +32,7 @@
         font-family: 'Oleo Script';
         color: rgb(0, 20, 0);
     }
+
     .btn.btn-signup {
         background-color: rgb(201, 0, 0);
         width: 400px;
@@ -37,31 +40,67 @@
         border-radius: 0;
         height: 45px;
     }
+
     .tabla img {
-        max-width: 940px;
-        margin-left: 4px;
+        max-width: 818px;
+        margin-left: -10px;
     }
-    body{
-      background-color: rgb(198, 198, 198);
+
+    body {
+        background-color: rgb(198, 198, 198);
     }
-    .container{
-      background-color: rgb(255, 255, 255);
+
+    .container {
+        background-color: rgb(255, 255, 255);
     }
-    .titulo_registro{
-      font-size: 20px;
-      font-weight: 500;
-      margin-bottom: -15px;
+
+    .titulo_registro {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: -15px;
     }
-    .contenido_registro{
-      font-size: 15px;
-      font-weight:500;
-      margin-bottom: -5px;
+
+    .contenido_registro {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: -5px;
     }
-    .continuar .btn.btn-signup{
-      width: 180px;
+
+    .continuar .btn.btn-signup {
+        width: 180px;
+        background-color: #B3336F;
     }
-    .col.fondo_registro{
-      background-color: rgb(235, 233, 233);
+
+    .col.fondo_registro {
+        background-color: rgb(235, 233, 233);
+        padding-bottom: 50px;
+    }
+
+    .login {
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .btn_login .btn.btn-signup {
+        width: 190px;
+        background-color: #B3336F;
+    }
+
+    .col.login_acceso {}
+
+    .login_acceso {
+        margin-left: -150px;
+    }
+    .hr{
+      width: 813px;
+    }
+    .pie_pagina{
+      text-align: center;
+      font-size: 14px;
+      margin-top: -10px;
+      line-height: 16px;
+      color: rgb(48, 48, 48);
+      font-family: 'Oleo Script';
     }
 
 </style>
@@ -85,57 +124,72 @@
             </div>
         </div>
         <div class="row">
+          <div class="col l1"></div>
             <div class="tabla">
-                <div class="col  l10">
-                    <center>
-                        <img src="tabla.png" alt="la imagen esta cargando">
-                    </center>
+                <div class="col l10">
+                        <img src="tabla2.png" alt="la imagen esta cargando">
                 </div>
+            </div>
+        <div class="col l1"></div>
+        </div>
+        <div class="row registro_login">
+            <div class="col l1">
+            </div>
+            <div class="col l10 fondo_registro">
+                <center class="asd">
+                    <div class="col l4 push-1">
+                        <div class="">
+                            <h4 class="titulo_registro">
+                    Nuevo visitante
+                  </h4><br>
+                            <h4 class="contenido_registro">
+                    Continuar para finalizar su compra
+                  </h4><br>
+                            <div class="continuar">
+                                <button class="btn waves-effect waves-light btn-signup" type="submit">Continuar</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </center>
+                <div class="barra_vertical">
+                    <div class="col l3 ">
+                        <p class="vertical"></p>
+                    </div>
+                </div>
+                <div class="login_acceso">
+                    <div class="col l4">
+                        <div class="">
+                            <form class="" action="index.html" method="post">
+                                <h4 class="login">Ya tengo Cuenta</h4>
+                                <input type="email" name="name" placeholder="correo electronico" required/></input>
+                                <input type="password" name="name" placeholder="contraseña" required/></input>
+                                <div class="btn_login">
+                                    <button class="btn waves-effect waves-light btn-signup" type="submit">Continuar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l2">
+
             </div>
         </div>
         <div class="row">
-          <div class="col l1">
-
+          <div class="col l12">
+          <hr class="hr">
           </div>
-
-          <div class="col l8 fondo_registro">
-              <div class="col l1">
-
-              </div>
-              <center><div class="col l4">
-                <div class="">
-                  <h4 class="titulo_registro">
-                    Nuevo visitante
-                  </h4><br>
-                  <h4 class="contenido_registro">
-                    Continuar para finalizar su compra
-                  </h4><br>
-                  <div class="continuar">
-                      <button class="btn waves-effect waves-light btn-signup" type="submit">Continuar</button>
-                  </div>
-
-                </div>
-              </div></center>
-              <div class="col l1">
-                asad
-              </div>
-              <div class="col l4">
-                <div class="">
-                  <form class="" action="index.html" method="post">
-                      <input type="email" name="name" placeholder="correo electronico" required/></input>
-                      <input type="password" name="name" placeholder="correo electronico" required/></input>
-                  </form>
-                </div>
-              </div>
-              <div class="col l1">
-
-              </div>
-          </div>
-
-          <div class="col l1">
-
-          </div>
+        </div>
+        <div class="row">
+          <p class="pie_pagina">
+          Complejo Turistico Dionys SAC<br/>
+          Teléfono : (01) 3562989 Móvil RPM: # 970 908 908 / # 981 116 698<br/>
+          © Copyright 2016 Experiencias Xcaret S.A. de C.V. | DesarrolloTI
+          </p>
         </div>
     </div>
 </body>
+
 </html>
