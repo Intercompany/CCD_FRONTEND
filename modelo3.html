@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Oleo+Script" rel="stylesheet">
+    <!--codigo-->
+    <style>
+        .titulo {
+            font-size: 40px;
+            font-family: 'Oleo Script';
+            color: rgb(0, 20, 0);
+        }
+
+        .btn.btn-signup {
+            background-color: rgb(201, 0, 0);
+            width: 400px;
+            position: inherit;
+            border-radius: 0;
+            height: 45px;
+        }
+
+        .tabla img {
+            max-width: 818px;
+            margin-left: -10px;
+        }
+
+        body {
+            background-color: rgb(198, 198, 198);
+        }
+
+        .container {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .columna1 {
+            background-color: #8E2B6B;
+            font-weight: 600;
+        }
+
+        .col.resumen_compra {
+            padding: ;
+        }
+
+        .I_Comprador {
+            font-size: 16px;
+            font-weight: 600;
+            color: rgb(255, 255, 255);
+            margin: 12px 0;
+        }
+
+        .col.fecha {
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .row.color{
+          background-color: rgb(245, 240, 240);
+        }
+        .row.margin{
+          margin-top: -25px;
+        }
+        .btn.btn_realizarpago{
+          width: 185px;
+        }
+        .btn.btn_regresar{
+        width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col m10">
+                <div class="col m8">
+                    <h1 class="titulo">
+                      Complejo Turistico Dionys
+                    </h1>
+                </div>
+                <div class="col m3">
+                    <div class="button">
+                        <div class="section">
+                            <button class="btn waves-effect waves-light btn-signup" type="submit">Atención a Cliente/Venta</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col l1"></div>
+            <div class="tabla">
+                <div class="col l10">
+                    <img src="tabla3.png" alt="la imagen esta cargando">
+                </div>
+            </div>
+            <div class="col l1"></div>
+        </div>
+        <div class="row">
+            <div class="col l1">
+            </div>
+            <div class="col l10">
+                <div class="row columna1">
+                    <div class="col l12 resumen_compra ">
+                        <p class="I_Comprador">Resumen de Compra</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l5">
+                        <div class="col l6 fecha">
+                            Fecha de su visita:
+                        </div>
+                        <div class="col l6 fecha">
+                            <label for="">Miércoles 21 de diciembre del 2016</label>
+                        </div>
+                    </div>
+                    <div class="col l7">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Descripción</th>
+                                    <th>Cantidad</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <form action="#">
+                        <hr>
+                        <div class="col l2">
+                            <p>
+                                <input name="group1" type="radio" id="test1" />
+                                <label for="test1">Factura</label>
+                            </p>
+                        </div>
+                        <div class="col l2">
+                            <p>
+                                <input name="group1" type="radio" id="test2" />
+                                <label for="test2">Boleta</label>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+                <div class="row columna1">
+                    <div class="col l12 resumen_compra ">
+                        <p class="I_Comprador">Resumen de Compra</p>
+                    </div>
+                </div>
+
+                <div class="row col l12 color">
+                    <form>
+                        <div class="row">
+                            <p>
+                                <input name="group1" type="radio" id="test3" />
+                                <label for="test3"> <img src="visa.png" alt=""> </label>
+                            </p>
+                        </div>
+                        <div class="row margin">
+                            <div class="row">
+                                <div class="col l12">
+                                    Nombre de la tarjeta:
+                                    <div class="input-field inline">
+                                        <input id="text" type="email" class="valid ">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="row">
+                  <div class="col l12">
+                    <div class="col l3 ">
+                      <button class="btn waves-effect waves-light btn-signup btn_regresar" type="submit">Continuar</button>
+                    </div>
+                    <div class="col l6">
+
+                    </div>
+                    <div class="col l3 ">
+                      <button class="btn waves-effect waves-light btn-signup btn_realizarpago" type="submit">Continuar</button>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+            <div class="col l1">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
